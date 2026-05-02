@@ -267,7 +267,6 @@ public class Chess extends JFrame {
 
         @Override
         protected void exportDone(JComponent source, Transferable data, int action) {
-            // 🔥 CRITICAL FIX: prevents Swing from deleting the piece
         }
 
         @Override
